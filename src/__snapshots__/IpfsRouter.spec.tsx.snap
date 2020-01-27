@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IpfsRouter with multiple child elements should render 1`] = `
+Array [
+  <p>
+    hello
+  </p>,
+  <p>
+    world
+  </p>,
+]
+`;
+
+exports[`IpfsRouter with single child element should render 1`] = `
+<p>
+  hello world
+</p>
+`;
