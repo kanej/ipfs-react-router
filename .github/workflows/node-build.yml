@@ -30,3 +30,8 @@ jobs:
           yarn test
         env:
           CI: true
+      - name: Publish Coverage
+        run: |
+          yarn coverage:upload
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

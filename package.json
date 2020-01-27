@@ -8,7 +8,8 @@
     "test": "jest --coverage",
     "build": "tsc",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
-    "lint:fix": "eslint --fix \"src/**/*.{ts,tsx}\""
+    "lint:fix": "eslint --fix \"src/**/*.{ts,tsx}\"",
+    "coverage:upload": "codecov"
   },
   "keywords": [
     "IPFS",
@@ -37,6 +38,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "codecov": "^3.6.2",
     "is-ipfs": "^0.6.3"
   },
   "peerDependencies": {
