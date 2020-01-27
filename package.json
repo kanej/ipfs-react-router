@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepublish": "tsc",
     "test": "jest --coverage",
     "build": "tsc",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
