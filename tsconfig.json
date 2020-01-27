@@ -4,6 +4,8 @@
     "module": "commonjs",
     "jsx": "react",
     "outDir": "./dist",
+    "declaration": true,
+    "sourceMap": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
