@@ -1,0 +1,16 @@
+{
+  "name": "ipfs-react-router",
+  "version": "0.1.0",
+  "description": "React Router extension for IPFS style paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IPFS",
+    "React",
+    "Router"
+  ],
+  "author": "John Kane @kanej",
+  "license": "MIT"
+}
